@@ -213,7 +213,8 @@ int width, int flags, char padd, char extra_c, int padd_start)
 		for (i = 3; i < width - length + 3; i++)
 			buffer[i] = padd;
 		buffer[i] = '\0';
-		if (flags & F_MINUS && padd == ' ')/* Assign extra char  to the left of buffer */
+		if (flags & F_MINUS && padd == ' ')
+		/* Assign extra char  to the left of buffer */
 		{
 			buffer[--ind] = 'x';
 			buffer[--ind] = '0';
