@@ -75,7 +75,7 @@ int flags, int width, int precision, int size)
 	UNUSED(size);
 
 	if (str == NULL)
-		return (write(1, "(nil)", 6));
+		return (write(1, "(null)", 6));
 
 	while (str[i] != '\0')
 	{
