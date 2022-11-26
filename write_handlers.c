@@ -46,7 +46,7 @@ int flags, int width, int precision, int size)
 /************************* WRITE NUMBER ****************************/
 /**
  * write_number - Prints a string
- * @is_negative - List a of arguments
+ * @is_negative: List a of arguments
  * @ind: char types
  * @buffer: Buffer array to handle print
  * @flags: Calculates active flags
@@ -192,7 +192,7 @@ int flags, int width, int precision, int size)
 
 /**
  * write_pointer - Write a memory address
- * @buffer - Array of chars
+ * @buffer: Array of chars
  * @ind: Index at which the number starts in the buffer
  * @length: Length of number
  * @width: Width specifier
