@@ -165,7 +165,7 @@ int flags, int width, int precision, int size)
 	UNUSED(size);
 
 	if (str == NULL)
-		str = "AHYY";
+		str = "(AHYY)";
 	for (i = 0; str[i]; i++)
 	{
 		for (j = 0; in[j]; j++)
